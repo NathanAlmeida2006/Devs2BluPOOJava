@@ -1,7 +1,7 @@
-package aula06.questao01.services;
+package aula06.questao02.services;
 
-import aula06.questao01.models.Conta;
-import aula06.questao01.models.Transacao;
+import aula06.questao02.models.Conta;
+import aula06.questao02.models.Transacao;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -15,14 +15,17 @@ public class Main {
         Autor autor2 = new Autor("Miguel de Cervantes");
         Livro livro2 = new Livro("Dom Quixote", autor2);
 
+        Autor autor3 = new Autor("John Lock");
+        Livro livro3 = new Livro("Star Wars", autor3);
+
         biblioteca.adicionarLivro(livro1);
         biblioteca.adicionarLivro(livro2);
+        biblioteca.adicionarLivro(livro3);
 
         AluguelService.alugar(livro1);
         AluguelService.alugar(livro2);
 
         biblioteca.gerarRelatorioLivros();
-
         biblioteca.mostrarLivros();
     }
 }

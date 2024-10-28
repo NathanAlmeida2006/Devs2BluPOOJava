@@ -1,7 +1,7 @@
-package aula06.questao01.models;
+package aula06.questao02.models;
 
 public class Transacao {
-    private String descricao;
+    private final String descricao;
 
     public Transacao(String descricao) {
         this.descricao = descricao;

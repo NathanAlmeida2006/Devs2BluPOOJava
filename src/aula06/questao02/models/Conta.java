@@ -1,7 +1,7 @@
-package aula06.questao01.models;
+package aula06.questao02.models;
 
 public class Conta {
-    private String titular;
+    private final String titular;
     private double saldo;
 
     public Conta(String titular, double saldoInicial) {

@@ -1,8 +1,8 @@
-package aula06.questao01;
+package aula06.questao02;
 
-import aula06.questao01.models.Conta;
-import aula06.questao01.services.ContaService;
-import aula06.questao01.services.RelatorioContaService;
+import aula06.questao02.models.Conta;
+import aula06.questao02.services.ContaService;
+import aula06.questao02.services.RelatorioContaService;
 
 public class MainContaTudoEmUm {
 
